@@ -29,7 +29,11 @@
   margin-top: 2rem;
 }
 .sm-controls .btn-leave {
-  background-color: red;
+  background-color: #c51212;
+}
+
+.sm-controls .btn-leave:hover {
+  background-color: #a31212;
 }
 
 .sm-btn-icon {
@@ -43,4 +47,8 @@
   color: white;
   place-items: center;
   border: none;
+}
+
+.sm-btn-icon:hover {
+  background: rgb(88, 88, 88);
 }
