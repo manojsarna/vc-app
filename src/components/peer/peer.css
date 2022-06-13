@@ -1,4 +1,4 @@
-.peer-video {
+.sm-peer-video {
   height: 42rem;
   width: 42rem;
   border-radius: 10px;
@@ -6,7 +6,7 @@
   transform: scaleX(-1);
 }
 
-.peer-name {
+.sm-peer-name {
   position: absolute;
   bottom: 2.5rem;
   right: 2.5rem;
@@ -16,7 +16,7 @@
   color: white;
 }
 
-.peer-container {
+.sm-peer-container {
   position: relative;
   padding: 10px;
 }

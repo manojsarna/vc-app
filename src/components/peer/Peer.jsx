@@ -22,15 +22,15 @@ export function Peer({ peer }) {
   }, [videoTrack, hmsActions]);
 
   return (
-    <div className="peer-container">
+    <div className="sm-peer-container">
       <video
         ref={videoRef}
-        className={`peer-video ${peer.isLocal ? "local" : ""}`}
+        className="sm-peer-video"
         autoPlay
         muted
         playsInline
       />
-      <div className="peer-name">
+      <div className="sm-peer-name">
         {peer.name} {peer.isLocal ? "(You)" : ""}
       </div>
     </div>
