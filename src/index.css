@@ -1,13 +1,92 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+/* FONTS  */
+/* INTER VAN */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap");
+
+/* ---- FONT AWESOME ---- */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
+:root {
+  /* FONT SIZE  */
+  font-size: 62.5%;
+
+  --COLOR-BLACK: black;
+  --COLOR-DARKEN-HOVER-1: #73e161;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html[data-theme="light"] {
+  --COLOR-BG: #ffffff;
+  --COLOR-FONT: black;
+  --COLOR-SCROLL: #ffffff;
+  --COLOR-OUTLINE-BTN-BG: #ffffff;
+  --COLOR-HEADER-FONT-DARK: #11a300;
+  --COLOR-HEADER-FONT-DARK-HOVER: #5ef046;
+  --COLOR-CODE-BG: #0b1120;
+}
+
+html[data-theme="dark"] {
+  --COLOR-BG: #0b1120;
+  --COLOR-FONT: rgb(255, 255, 255, 0.9);
+  --COLOR-SCROLL: #0b1120;
+  --COLOR-OUTLINE-BTN-BG: #ffffff;
+  --COLOR-HEADER-FONT-DARK: #44d62c;
+  --COLOR-HEADER-FONT-DARK-HOVER: #73e161;
+  --COLOR-CODE-BG: #0b1120;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}
+
+ul[role="list"],
+ol[role="list"],
+ul {
+  list-style: none;
+}
+
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+::-webkit-scrollbar-track {
+  background-color: var(--COLOR-SCROLL);
+}
+::-webkit-scrollbar-thumb {
+  background-color: var(--COLOR-PRIMARY);
+  border-radius: 5px;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  color: var(--COLOR-FONT);
+  background: var(--COLOR-BG);
 }

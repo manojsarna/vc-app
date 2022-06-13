@@ -1,0 +1,22 @@
+.peer-video {
+  height: 42rem;
+  width: 42rem;
+  border-radius: 10px;
+  object-fit: cover;
+  transform: scaleX(-1);
+}
+
+.peer-name {
+  position: absolute;
+  bottom: 2.5rem;
+  right: 2.5rem;
+  font-size: 2rem;
+  font-weight: 700;
+  text-align: center;
+  color: white;
+}
+
+.peer-container {
+  position: relative;
+  padding: 10px;
+}

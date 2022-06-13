@@ -1,0 +1,46 @@
+.sm-meeting-room {
+  padding: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.sm-meeting-room h1 {
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+.sm-peers-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.sm-controls {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  width: 100%;
+  z-index: 10;
+  margin-top: 2rem;
+}
+.sm-controls .btn-leave {
+  background-color: red;
+}
+
+.sm-btn-icon {
+  background: #969696;
+  border-radius: 50%;
+  cursor: pointer;
+  display: grid;
+  height: 5rem;
+  padding: 1rem;
+  width: 5rem;
+  color: white;
+  place-items: center;
+  border: none;
+}

@@ -1,0 +1,62 @@
+.sm-form-container {
+  min-height: 90vh;
+  display: grid;
+  place-items: center;
+}
+
+.sm-join-room {
+  max-width: 400px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem;
+  border-radius: 20px;
+  font-size: 2rem;
+  border: 2px solid var(--COLOR-HEADER-FONT-DARK);
+}
+
+.sm-join-room input {
+  display: block;
+  width: 80%;
+  padding: 1rem;
+  outline: none;
+  border-radius: 5px;
+  background: var(--COLOR-BG);
+  color: inherit;
+  border: 1px solid var(--COLOR-FONT);
+  font-family: inherit;
+}
+
+.sm-join-room input:focus {
+  border: 1px solid var(--COLOR-HEADER-FONT-DARK);
+}
+
+.sm-btn-join {
+  font-size: 1.8rem;
+  width: 80%;
+  font-weight: 600;
+  color: var(--COLOR-BLACK);
+  background: var(--COLOR-HEADER-FONT-DARK);
+  border: 2px solid var(--COLOR-HEADER-FONT-DARK);
+  border-radius: 5px;
+  padding: 1rem 1.5rem;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.sm-btn-join:hover {
+  background: var(--COLOR-DARKEN-HOVER-1);
+  border: 2px solid var(--COLOR-DARKEN-HOVER-1);
+}
+
+.btn-primary {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 6px 14px;
+  background-color: #1565c0;
+  color: white;
+  font-family: inherit;
+  font-size: 14px;
+}
